@@ -1,0 +1,99 @@
+body {
+    margin: 300px;
+}
+
+.container {
+    /*height: 300px;
+    width: 200px;
+    border: 2px solid black;*/
+}
+.rain {
+    margin-left: 50px;
+    position: absolute;
+    text-align: center;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(252, 0, 0);
+    top: 90%;
+    animation: rai1 9s ease-out infinite;
+}
+
+.rain2 {
+    margin-left: 50px;
+    position: absolute;
+    text-align: center;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(252, 0, 228);
+    top: 90%;
+    animation: rai2 3s ease-out infinite;
+}
+/*.pool {
+    display: block;
+    text-align: center;
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    border-radius: 50%;
+    border: 10px black;
+    color: blue;
+    bottom: 10%;
+}*/
+.wave {
+    position: relative;
+    height: 1px;
+    width: 1px;
+    border: 2px black;
+    border-radius: 50%;
+    /* animation: wav 3s ease-out infinite;
+    animation-delay: -3s; */
+}
+
+h1 {
+    margin-left: 100px;
+    font: 30px;
+    color: white;
+    animation: sou 3s ease-in infinite;
+    bottom: 20%;
+}
+
+@keyframes rai1 {
+    from {
+        top: 1%;
+    }
+    to {
+        top: 87%;
+    }
+}
+
+@keyframes rai2 {
+    from {
+        top: 1%;
+    }
+    to {
+        top: 87%;
+    }
+}
+@keyframes wav {
+    from {
+
+    }
+    to {
+        height: 30px;
+        width: 100px;
+        border-radius: 50%;
+    }
+}
+
+ @keyframes sou {
+    0% {
+    
+    }
+    98% {
+        color: white;
+    }
+    99% {
+        color: black;
+    }
+
+ }
